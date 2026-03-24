@@ -8,9 +8,17 @@ setup = function() {
   var crossiantX = 60;
   textSize(30);
 
+  var BaguettesX = 60; 
+  textSize = 30;
+
   while(crossiantX < 300){
     text("🥐", crossiantX, 85);
     crossiantX += 40;
+  }
+
+  while (BaguettesX < 300){
+    text("🥖", BaguettesX, 160);
+    BaguettesX += 30;
   }
 
   textSize(15);
