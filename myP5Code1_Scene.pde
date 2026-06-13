@@ -1,9 +1,17 @@
 
 
 setup = function() {
-
+  // create the canvas and background 
   size(400, 400); 
   background(0,0,0,0);
+
+    // Array stores the bakery item emojis
+    var bakeryItems = ["🥐", "🥖", "🍥", "🍞"];
+
+    var crossiantX = 70;
+    var BagX = 70;
+    var rollsX = 70;
+    var breadsX = 70;
 
   var crossiantX = 70;
   textSize(30);
@@ -41,6 +49,8 @@ setup = function() {
 
   textSize(15);
   fill(0,0,0);
+  
+  // display labels for the bread 
   text(bakeryLabels[0], 70, 105);
   text(bakeryLabels[1], 70, 185);
   text(bakeryLabels[2], 70, 265);
